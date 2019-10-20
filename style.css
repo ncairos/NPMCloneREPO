@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: poppins;
+}
+
+/*---> NAVIGATION BAR <---*/
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.black-heart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+/* --->SEARCH BAR<--- */
+
+.npm-logo {
+  width: 60px;
+  margin-right: 1rem;
+}
+
+.npm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.search-img {
+  width: 20px;
+  position: absolute;
+  padding: 10px 15px;
+}
+
+.search-label {
+  width: 1031px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: none;
+  height: 45px;
+  text-indent: 30px;
+  margin-left: 10px;
+}
+
+.search-button {
+  font-family: poppins;
+  background-color: #fb3e44;
+  border: none;
+  color: white;
+  height: 45px;
+  display: inline-block;
+}
+
+.join-button {
+  padding: 2px 10px;
+  border: 1px solid lightgray;
+}
+
+.login-button {
+  padding: 2px 10px;
+}
+
+/*--->SECTION 1<---*/
+
+.products {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background: rgba(232, 217, 217, 0.3);
+  box-shadow: 0 8px 6px -6px lightgrey inset;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.products article {
+  margin: 0 30vw 50px;
+}
+
+.products div {
+  display: flex;
+  justify-content: center;
+}
+
+.products-button {
+  padding: 15px 60px;
+  margin: 0 20px 150px;
+  font-weight: bold;
+}
+
+.button-red {
+  background: #fb3b49;
+  text-decoration: none;
+  color: white;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+}
+
+.button-white {
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+
+/*--->SECTION 2<---*/
+
+.hexagon {
+  margin: 0px auto;
+  width: 200px;
+  padding: 50px 0px;
+}
+
+.solution {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+h2 {
+  font-size: 1.6em;
+  background: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
+  font-style: italic;
+  margin: 10px 24%;
+  text-align: center;
+}
+
+.article-box {
+  margin: 30px 24%;
+  text-align: center;
+}
+
+/*--->SECTION 3<---*/
+
+.resources-box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin:5px 80px 40px;
+  padding: 0 100px;
+}
+
+.resources-img {
+  width: 40px;
+}
+
+h3 {
+  color: #ED1C24;
+}
+
+/*--->SECTION 4<---*/
+
+.docs-button {
+  display: flex;
+  justify-content: center;
+  background: black;
+  text-decoration: none;
+  color: white;
+  width: 300px;
+  margin:10px auto;
+  padding: 10px 0px;
+  font-weight: bold;
+  box-shadow: 6px 6px 0px RGBA(128,83,35,.2);
+}
